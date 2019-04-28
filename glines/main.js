@@ -3,7 +3,7 @@ const OrbitControls = require('three-orbitcontrols');
 require('three-obj-loader')(THREE);
 
 const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 1000);
-camera.position.z = 400;
+camera.position.z = 250;
 
 renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setPixelRatio(window.devicePixelRatio);
